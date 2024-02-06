@@ -27,6 +27,6 @@ export const countriesReducer = (state = initialState, { type, payload }) => {
         list: payload,
       };
     default:
-      return false;
+      return state;
   }
 };
